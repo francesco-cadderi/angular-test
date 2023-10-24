@@ -6,8 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./event-binding.component.css']
 })
 export class EventBindingComponent {
+  onInput(event: Event){
+    console.log((<HTMLInputElement>event.target).value);
+  }
+
+  title = 'corso angular'
   onClick(event: Event){
-    console.log(event);
-    
+    this.title = 'ho cliccato il bottone'
   }
 }
