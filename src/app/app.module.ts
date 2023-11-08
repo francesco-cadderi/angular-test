@@ -10,6 +10,15 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import {MatInputModule} from '@angular/material/input';
+import { DirectiveStructuralNgifComponent } from './directive-structural-ngif/directive-structural-ngif.component';
+import { DirectiveStructuralNgforComponent } from './directive-structural-ngfor/directive-structural-ngfor.component';
+import { DirectiveStructuralNgswitchComponent } from './directive-structural-ngswitch/directive-structural-ngswitch.component';
+import { DirectiveAttributeNgstyleComponent } from './directive-attribute-ngstyle/directive-attribute-ngstyle.component';
+import { DirectiveAttributeNgclassComponent } from './directive-attribute-ngclass/directive-attribute-ngclass.component';
+import { ChildOfParentToChildComponent } from './parent-to-child/child-of-parent-to-child/child-of-parent-to-child.component';
+import { ParentOfParentToChildComponent } from './parent-to-child/parent-of-parent-to-child/parent-of-parent-to-child.component';
+import { ChildOfChildToParentComponent } from './child-to-parent/child-of-child-to-parent/child-of-child-to-parent.component';
+import { ParentOfChildToParentComponent } from './child-to-parent/parent-of-child-to-parent/parent-of-child-to-parent.component';
 
 
 
@@ -19,6 +28,15 @@ import {MatInputModule} from '@angular/material/input';
     AppComponent,
     ProvaComponent,
     EventBindingComponent,
+    DirectiveStructuralNgifComponent,
+    DirectiveStructuralNgforComponent,
+    DirectiveStructuralNgswitchComponent,
+    DirectiveAttributeNgstyleComponent,
+    DirectiveAttributeNgclassComponent,
+    ChildOfParentToChildComponent,
+    ParentOfParentToChildComponent,
+    ChildOfChildToParentComponent,
+    ParentOfChildToParentComponent,
   ],
   imports: [
     BrowserModule,

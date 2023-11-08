@@ -1,0 +1,17 @@
+.cerchio {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-right: 10px;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px
+    
+}
+p {
+    margin-bottom: 0;
+}
