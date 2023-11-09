@@ -11,7 +11,6 @@ export class ChildOfChildToParentComponent {
   numero = 42
   
   sparaDati(){
-    console.log('figlio',  this.numero);
     this.mandaDatiEvento.emit(this.numero)
   }
 }

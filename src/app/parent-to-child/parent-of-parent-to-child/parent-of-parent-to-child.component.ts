@@ -11,4 +11,12 @@ export class ParentOfParentToChildComponent {
     {nome: "marco", cognome: "verdi", isOnline: false},
     {nome: "anna", cognome: "neri", isOnline: true}
   ]
+
+  onClick(){
+    this.data = [
+      {nome: "paolo", cognome: "gatto", isOnline: false},
+      {nome: "anna", cognome: "pannocchia", isOnline: false},
+      {nome: "maccio", cognome: "capatonda", isOnline: true}
+    ]
+  }
 }

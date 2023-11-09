@@ -19,6 +19,7 @@ import { ChildOfParentToChildComponent } from './parent-to-child/child-of-parent
 import { ParentOfParentToChildComponent } from './parent-to-child/parent-of-parent-to-child/parent-of-parent-to-child.component';
 import { ChildOfChildToParentComponent } from './child-to-parent/child-of-child-to-parent/child-of-child-to-parent.component';
 import { ParentOfChildToParentComponent } from './child-to-parent/parent-of-child-to-parent/parent-of-child-to-parent.component';
+import { VariableTemplateComponent } from './variable-template/variable-template.component';
 
 
 
@@ -37,6 +38,7 @@ import { ParentOfChildToParentComponent } from './child-to-parent/parent-of-chil
     ParentOfParentToChildComponent,
     ChildOfChildToParentComponent,
     ParentOfChildToParentComponent,
+    VariableTemplateComponent,
   ],
   imports: [
     BrowserModule,

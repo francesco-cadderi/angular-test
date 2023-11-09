@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, SimpleChange } from '@angular/core';
 
 @Component({
   selector: 'app-child-of-parent-to-child',
@@ -7,4 +7,12 @@ import { Component, Input } from '@angular/core';
 })
 export class ChildOfParentToChildComponent {
   @Input() data: any;
+
+  ngOnInit(): void {
+    console.log(this.data);
+  }
+
+  ngOnChanges(changes: SimpleChange): void {
+    console.log(changes);
+  }
 }
