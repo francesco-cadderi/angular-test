@@ -20,6 +20,7 @@ import { ParentOfParentToChildComponent } from './parent-to-child/parent-of-pare
 import { ChildOfChildToParentComponent } from './child-to-parent/child-of-child-to-parent/child-of-child-to-parent.component';
 import { ParentOfChildToParentComponent } from './child-to-parent/parent-of-child-to-parent/parent-of-child-to-parent.component';
 import { VariableTemplateComponent } from './variable-template/variable-template.component';
+import { HighlightDirective } from './directive-custom/highlight.directive';
 
 
 
@@ -39,6 +40,7 @@ import { VariableTemplateComponent } from './variable-template/variable-template
     ChildOfChildToParentComponent,
     ParentOfChildToParentComponent,
     VariableTemplateComponent,
+    HighlightDirective,
   ],
   imports: [
     BrowserModule,
