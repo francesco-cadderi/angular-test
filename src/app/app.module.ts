@@ -21,6 +21,8 @@ import { ChildOfChildToParentComponent } from './child-to-parent/child-of-child-
 import { ParentOfChildToParentComponent } from './child-to-parent/parent-of-child-to-parent/parent-of-child-to-parent.component';
 import { VariableTemplateComponent } from './variable-template/variable-template.component';
 import { HighlightDirective } from './directive-custom/highlight.directive';
+import { ParentOfHighlightComponent } from './parent-of-highlight/parent-of-highlight.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 
 
@@ -41,6 +43,8 @@ import { HighlightDirective } from './directive-custom/highlight.directive';
     ParentOfChildToParentComponent,
     VariableTemplateComponent,
     HighlightDirective,
+    ParentOfHighlightComponent,
+    PipesComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,7 @@
+<h2>Scegli il colore</h2>
+<div>
+    <input type="radio" name="coloreEvidenziatore" (click)="cambiaColoreEvidenziatore('red')">rosso
+    <input type="radio" name="coloreEvidenziatore"(click)="cambiaColoreEvidenziatore('blue')">blu
+    <input type="radio" name="coloreEvidenziatore" (click)="cambiaColoreEvidenziatore('yellow')">giallo
+</div>
+<p [appHighlight]="colore">paragrafo</p>
