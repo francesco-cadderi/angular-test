@@ -23,6 +23,9 @@ import { VariableTemplateComponent } from './variable-template/variable-template
 import { HighlightDirective } from './directive-custom/highlight.directive';
 import { ParentOfHighlightComponent } from './parent-of-highlight/parent-of-highlight.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 
 
@@ -45,6 +48,9 @@ import { PipesComponent } from './pipes/pipes.component';
     HighlightDirective,
     ParentOfHighlightComponent,
     PipesComponent,
+    HomeComponent,
+    AboutComponent,
+    ContactsComponent,
   ],
   imports: [
     BrowserModule,

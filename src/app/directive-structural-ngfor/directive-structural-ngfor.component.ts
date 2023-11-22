@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ServiceTestService } from '../services/service-test.service';
 
 @Component({
   selector: 'app-directive-structural-ngfor',
@@ -6,9 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./directive-structural-ngfor.component.css']
 })
 export class DirectiveStructuralNgforComponent {
-  persone = [
-    {nome: "luca", cognome: "rossi"},
-    {nome: "marco", cognome: "verdi"},
-    {nome: "anna", cognome: "neri"},
-  ]
+  
+  constructor(private servizioTest: ServiceTestService) {}
+
+  persone = this.servizioTest.persone
+  
 }
